@@ -14,8 +14,10 @@
 
 ### git add 
 
-* git add . 
-* git add filename
+```
+git add filename
+``` git add . 
+
 
 ### git commit
 
@@ -25,4 +27,6 @@
 
 * git push origin master
 
+### git pull
 
+* git pull 

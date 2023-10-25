@@ -2,9 +2,9 @@
 
 
 ## initializing git
-'''
-init git
-'''
+
+* init git
+
 
 ## configuring git
 

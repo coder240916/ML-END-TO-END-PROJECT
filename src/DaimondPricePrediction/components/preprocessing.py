@@ -79,6 +79,8 @@ class DataTransformation:
 
             logging.info("processing completed on train and test data.")
 
+            # print(pd.DataFrame(data = train_data_input_arr,columns=preprocessor.get_feature_names_out(),index=train_data_input_feature_df.index))
+
             train_arr = np.c_[train_data_input_arr,np.array(train_data_target_feature_df)]
             test_arr = np.c_[test_data_input_arr,np.array(test_data_target_feature_df)]
 
@@ -96,8 +98,8 @@ if __name__ == "__main__":
 
     preprocessing_object = DataTransformation()
     train_arr,test_arr = preprocessing_object.initiate_data_transformation('artifacts/test_data.csv','artifacts/train_data.csv')
-    print(test_arr[:,-1].shape,test_arr[:,-1].shape)
-    print(train_arr[:,-1].shape,train_arr[:,-1].shape)
+    # print(test_arr[0],test_arr[0])
+    # print(train_arr[:,-1].shape,train_arr[:,-1].shape)
 
 
 

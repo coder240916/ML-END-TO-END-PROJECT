@@ -33,3 +33,8 @@ git add .
 ### git pull
 
 * git pull 
+
+### running shell script
+```
+bash your_script.sh
+```

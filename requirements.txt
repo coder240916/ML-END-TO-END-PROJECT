@@ -2,8 +2,8 @@ pandas
 numpy
 matplotlib
 scikit-learn
-seaborn
 ipykernel
 flask
+
 
 -e .

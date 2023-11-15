@@ -1,5 +1,4 @@
 name: build and push image to ECR
-
 on:
   push:
     branches:
